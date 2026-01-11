@@ -1,0 +1,9 @@
+{
+  "emoji": "💎",
+  "colors": {
+    "primary": "#6366F1",
+    "secondary": "#8B5CF6",
+    "accent": "#A78BFA"
+  },
+  "theme": "solarized-light"
+}

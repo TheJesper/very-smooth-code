@@ -1,0 +1,54 @@
+{
+  "id": "vsc-hub",
+  "name": "Very Smooth Code",
+  "emoji": "💎",
+  "shortkey": "vsc",
+  "type": "single-agent",
+  "status": "active",
+  "agent_count": 1,
+  "full_name": "Very Smooth Code - Developer Hub",
+  "description": "Developer tools hub with coding helpers, styling tools, snippets, cheatsheets, and curated resources. Smooth as butter.",
+  "version": "0.1.0",
+  "domain": "vscode.com",
+  "integration": {
+    "orchestrator": true,
+    "terminal_launcher": true
+  },
+  "vuk": {
+    "enabled": true,
+    "port": 9570,
+    "features": [
+      "Tools",
+      "Snippets",
+      "Cheatsheets",
+      "Blog"
+    ],
+    "viz_path": "."
+  },
+  "tl": {
+    "tabs": [
+      {
+        "command": "claude --dangerously-skip-permissions",
+        "title": "Agent",
+        "tabColor": "#6366F1"
+      },
+      {
+        "command": "npm run dev",
+        "title": "Dev",
+        "tabColor": "#8B5CF6"
+      },
+      {
+        "command": "",
+        "title": "Terminal",
+        "tabColor": "#A78BFA"
+      }
+    ]
+  },
+  "sections": {
+    "tools": "CSS helpers, color tools, converters",
+    "snippets": "Ready-to-use code patterns",
+    "cheatsheets": "Quick references",
+    "ui": "Component showcases",
+    "blog": "Articles from hoffbit and curated content"
+  }
+}
