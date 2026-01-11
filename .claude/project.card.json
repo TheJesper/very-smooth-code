@@ -2,7 +2,7 @@
   "id": "vsc-hub",
   "name": "Very Smooth Code",
   "emoji": "💎",
-  "shortkey": "vsc",
+  "shortkey": "vs",
   "type": "single-agent",
   "status": "active",
   "agent_count": 1,
